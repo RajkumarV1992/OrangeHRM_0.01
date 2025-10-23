@@ -10,7 +10,7 @@ Feature: Login Function
     Examples:
       | Username | Password |
       | Admin    | admin123 |
-      | Raj		 | sri		|
+      | Admin		 | admin123	|
 
   
   
