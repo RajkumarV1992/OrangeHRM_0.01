@@ -16,7 +16,7 @@ import io.cucumber.junit.CucumberOptions;
 					       "json:target/cucumber.json"              // ✅ JSON report
 				 },
 				 
-				 monochrome=true,
+				 monochrome=true
 //				 tags="@notSimple"
 //				 tags="@SimpleLogin"
 				 
