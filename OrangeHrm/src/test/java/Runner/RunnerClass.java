@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="src\\test\\resources\\featureFile", 
 //@CucumberOptions(features="featureFile\\DataTableWithHeader.feature", 
 				 glue="stepDefinitions",
-				 dryRun=false,
+				 dryRun=true,
 				 plugin = { 
 						   "pretty",                                // Prints readable console output
 					       "html:target/cucumber-reports.html",     // ✅ HTML report
@@ -17,7 +17,8 @@ import io.cucumber.junit.CucumberOptions;
 				 },
 				 
 				 monochrome=true,
-				 tags="@notSimple"
+//				 tags="@notSimple"
+//				 tags="@SimpleLogin"
 				 
 				 )
 
