@@ -9,16 +9,16 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="src\\test\\resources\\featureFile", 
 //@CucumberOptions(features="featureFile\\DataTableWithHeader.feature", 
 				 glue="stepDefinitions",
-				 dryRun=true,
+				 dryRun=false,
 				 plugin = { 
 						   "pretty",                                // Prints readable console output
 					       "html:target/cucumber-reports.html",     // ✅ HTML report
 					       "json:target/cucumber.json"              // ✅ JSON report
 				 },
 				 
-				 monochrome=true
-//				 tags="@notSimple"
-//				 tags="@SimpleLogin"
+				 monochrome=true,
+				Emp"
+				 
 				 
 				 )
 

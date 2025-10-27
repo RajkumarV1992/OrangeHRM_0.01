@@ -1,3 +1,4 @@
+@SimpleLoginone
 Feature: Add Employee in Hrm Portal
 
 Scenario: Add Multiple Employee details from Excelsheet
